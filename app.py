@@ -16,7 +16,7 @@ class ChatRequest(BaseModel):
 # Home Endpoint
 @app.get("/")
 def home():
-    return {"message": "Gemini AI Backend is Running"}
+    return {"message": "Gemini AI Backend is Running with prompt"}
 
 # Chat Endpoint
 @app.post("/chat")
